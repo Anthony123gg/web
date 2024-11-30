@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurante - Sección con Imagen y Formulario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+      <!-- Barra superior -->
+      <header id="barra-superior">
+        <div class="contenedor">
+            <div class="row">
+                <div class="bs-contactos">
+                    <a href="tel:015070000"><i class="fa-solid fa-phone"></i> 01 50 70000</a>
+                    <a href="mailto:shinty_cruzero"><i class="fa-regular fa-envelope"></i> shinty_cruzero@isil.pe</a>
+                    <span><i class="fa-solid fa-clock"></i> Lun-Dom 08:00-17:00</span>
+                </div>
+                <div class="bs-redessociales">
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100077971534959"><i class="fa-brands fa-facebook fa-xl"></i></a>
+                    <a target="_blank" href="https://www.youtube.com/results?search_query=crusero+del+sabor+restaurante"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cabecera de la página -->
+    <header id="cabecera">
+        <div class="contenedor">
+            <nav class="nav-bar">
+                <div class="nav-logo">
+                    <a href="index.html">
+                        <img src="shinty.jpg" alt="Logo SHINTY" class="imgfluid">
+                    </a>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="index.html">Inicio</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="#fin">Historia</a></li>
+                    <li class="nav-menu-item"><a class="nav-menu-link" href="contactanos.html">Contactanos</a></li>
+                  
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <!-- Sección con imagen de fondo y formulario -->
+  <section class="hero-section">
+    <div class="overlay">
+      <h1>Contáctanos</h1>
+    </div>
+  </section>
+  
+  <section class="form-section">
+    <div class="container">
+      <div class="form-column">
+        <h2>Envíanos un mensaje</h2>
+        <form>
+          <input type="text" placeholder="Nombre" required>
+          <input type="email" placeholder="Correo" required>
+          <input type="text" placeholder="Asunto">
+          <textarea placeholder="Mensaje" rows="5"></textarea>
+          <div class="captcha">
+            <label>Pregunta de seguridad: 2 + 3 = </label>
+            <input type="text" required>
+          </div>
+          <label>
+            <input type="checkbox" required>
+            Acepto los términos y condiciones
+          </label>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <div class="contact-column">
+        <h2>Datos de contacto</h2>
+        <ul>
+          <li><span>📍</span> Av. Principal 123, Ciudad</li>
+          <li><span>📞</span> +123 456 789</li>
+          <li><span>✉️</span> contacto@restaurante.com</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Redes sociales -->
+  <section class="social-section">
+    <h2>Síguenos</h2>
+    <div class="social-icons">
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+    </div>
+  </section>
+
+  <!-- Mapa -->
+  <section class="map-section">
+    <iframe src="https://www.google.com/maps/embed?..." width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <!-- Sección de columnas y video -->
+  <section id="fin" class="columns-video">
+    <div class="container">
+      <div class="text-column">
+        <h2>Nuestra Historia</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin volutpat.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum repudiandae earum, similique repellat, deserunt corrupti voluptatem, ut sit placeat delectus dolorem tempore velit esse enim nulla cumque deleniti perspiciatis natus cupiditate? Natus repudiandae itaque accusantium?
+        </p>
+        <ul>
+          <li>🍽️ Experiencia culinaria única</li>
+          <li>🥂 Ambiente acogedor</li>
+        </ul>
+      </div>
+      <div class="video-column">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

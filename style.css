@@ -1,0 +1,157 @@
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #909;
+  }
+  
+  #barra-superior {
+    background-color: #34495e;
+    color: #ecf0f1;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+
+#barra-superior a {
+    color: #ecf0f1;
+    margin-right: 15px;
+}
+
+.bs-contactos span {
+    margin-left: 15px;
+}
+
+/* Cabecera */
+#cabecera {
+    background-color: #2c3e50;
+    padding: 20px 0;
+}
+  /* Hero Section */
+  .hero-section {
+    background: url('imagen-fondo.jpg') no-repeat center center/cover;
+    height: 300px;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    background: seagreen;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .overlay h1 {
+    font-size: 2rem;
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 150px;
+    margin-left: 50px;
+    border: 3px orange solid
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a {
+    font-size: 16px;
+    color: #ecf0f1;
+    padding: 10px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, border 0.3s;
+    margin-right: 50px;
+}
+
+.nav-menu a:hover {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+  
+  /* Form Section */
+  .form-section .container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .form-column, .contact-column {
+    flex: 1;
+  }
+  
+  form input, form textarea, form button {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  button {
+    background: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Social Section */
+  .social-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff6347;
+  }
+  
+  /* Map Section */
+  .map-section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Columns and Video */
+  .columns-video .container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .video-column iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .social-icons a {
+      display: block;
+      margin: 10px 0;
+    }
+  }
+  
